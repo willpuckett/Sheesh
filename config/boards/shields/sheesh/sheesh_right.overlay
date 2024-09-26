@@ -1,0 +1,33 @@
+/*
+ * Copyright (c) 2022 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include "sheesh.dtsi"
+
+&default_transform {
+  col-offset = <14>;
+};
+    // GPIO 0.18 is reset (I think)
+    // GPIO 0.9 and 0.10 are nfc (I think)
+    // Info on PDM pins from https://www.reddit.com/r/olkb/comments/11hl7is/extra_gpio_on_seeed_xiao_controllers_via_zmk/
+    // Personally, I call them out directly by their ID, i.e. gpio0 16, gpio1 0 and gpio1 10. (That’s what they are top to bottom on right side of PDM pad)
+&kscan0 {
+    input-gpios
+        = <&gpio0 18 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&xiao_d 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&xiao_d 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&gpio0 9  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&xiao_d 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&xiao_d 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&xiao_d 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&xiao_d 7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&xiao_d 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&xiao_d 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&gpio0 9  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&gpio0 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&xiao_d 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&xiao_d 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        ;
+};

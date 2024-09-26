@@ -1,0 +1,11 @@
+file_format: "1"
+id: sheesh
+name: sheesh
+type: shield
+url: https://github.com/willpuckett/sheesh
+requires: [seeed_xiao_ble]
+features:
+  - keys
+siblings:
+  - sheesh_left
+  - sheesh_right

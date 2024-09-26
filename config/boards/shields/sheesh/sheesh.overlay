@@ -1,0 +1,3 @@
+&uicr {
+	/delete-property/ gpio-as-nreset;
+};

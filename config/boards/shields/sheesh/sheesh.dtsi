@@ -1,0 +1,59 @@
+/*
+ * Copyright (c) 2022 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <dt-bindings/zmk/matrix_transform.h>
+
+#define KEYS_L 0 1 2 3 8 9 10 11 16 17 18 19 24 25  // left-hand keys
+#define KEYS_R 4 5 6 7 12 13 14 15 20 21 22 23 26 27// right-hand keys
+#define THUMBS 24 25 26 27 // thumb keys
+
+#define HM_TAPPING_TERM 1000
+#define HM_TAPPING_TERM_FAST 200
+#define HM_TAPPING_TERM_QT 175
+
+/ {
+    chosen {
+        zmk,kscan = &kscan0;
+        zmk,matrix_transform = &default_transform;
+    };
+
+    default_transform: keymap_transform_0 {
+        compatible = "zmk,matrix-transform";
+        columns = <28>;
+        rows = <1>;
+
+        map = <
+           RC(0,0)     RC(0,1)     RC(0,2)     RC(0,3)         RC(0,14)    RC(0,15)    RC(0,16)    RC(0,17)   
+           RC(0,4)     RC(0,5)     RC(0,6)     RC(0,7)         RC(0,18)    RC(0,19)    RC(0,20)    RC(0,21)    
+           RC(0,8)     RC(0,9)     RC(0,10)   RC(0,11)         RC(0,22)    RC(0,23)    RC(0,24)    RC(0,25)   
+                                   RC(0,12)   RC(0,13)         RC(0,26)    RC(0,27)
+        >;
+    };
+    // GPIO 0.18 is reset (I think)
+    // GPIO 0.9 and 0.10 are nfc (I think)
+    // Info on PDM pins from https://www.reddit.com/r/olkb/comments/11hl7is/extra_gpio_on_seeed_xiao_controllers_via_zmk/
+    // Personally, I call them out directly by their ID, i.e. gpio0 16, gpio1 0 and gpio1 10. (That’s what they are top to bottom on right side of PDM pad)
+    kscan0: kscan {
+        compatible = "zmk,kscan-gpio-direct";
+        wakeup-source;
+        input-gpios
+            = <&xiao_d 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&xiao_d 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&xiao_d 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 18 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&xiao_d 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&xiao_d 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&xiao_d 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&xiao_d 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&xiao_d 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&xiao_d 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&xiao_d 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&xiao_d 7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0  9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            ;
+    };
+};
