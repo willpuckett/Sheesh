@@ -133,3 +133,54 @@ The link contains the following layouts...
 ## Pre Fabs
 
 I'll put the extras on my [etsy](https://octule.etsy.com) when they arrive if you don't want to have to deal with a minimum order...
+
+## Writing Your Own keymap
+
+If you happen to make this but for some unimaginable reason find my keymap less than navigable 😳, you can easily make your own that references the sheesh shield...
+
+> [!TIP]
+> Don't feel like going through the below steps? Unpack [this zip](https://github.com/willpuckett/sheesh/zmk-config.zip), edit, and push to your github account to build.
+
+1. Init a new ZMK repo `bash -c "$(curl -fsSL https://zmk.dev/setup.sh)"`
+2. Type `1` to select a keyboard
+3. Type `22` to select Seeeduino XIAO BLE
+4. Type `Y` to copy in a stock keymap
+5. Ender your github username so you can push your config to build it
+6. Type `Y` to execute it
+7. You can delete the `boards` and `zephyr` directories to keep things tidy
+8. In `build.yaml`, change the `shield` to `sheesh`
+9. In the config directory, rename the `.conf` and `.keymap` files to `sheesh`, keeping their respective `.conf` and `.keymap` extensions it should look like this: 
+
+```bash
+❯ ls --tree zmk-config/config
+config
+├── sheesh.conf
+├── sheesh.keymap
+└── west.yml
+```
+
+10. In the same directory, edit `west.yml` to look like this:
+
+```yaml
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    # Additional modules containing boards/shields/custom code can be listed here as well
+    # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
+    - name: willpuckett
+      url-base: https://github.com/willpuckett
+  projects:
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml
+    - name: sheesh
+      remote: willpuckett
+      revision: main
+  self:
+    path: config
+```
+
+11. And that's it. Edit `config/sheesh.keymap` to your heart's content. You can start by copying in one of the [layers from this file](https://github.com/willpuckett/sheesh/config/boards/shields/sheesh/sheesh.keymap) as a starting point. Then push the folder to your github to build in an action.
+
