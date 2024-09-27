@@ -239,7 +239,8 @@
   },
   "erc": {
     "erc_exclusions": [
-      "pin_to_pin|2425700|660400|1a6cdbd5-ba15-4c6e-b49e-d95e36930297|72a7d3c0-eea4-43b9-91ba-9dc2c990d340|/1418ad6a-8a4d-429d-b07e-469b1ffa21a0|/1418ad6a-8a4d-429d-b07e-469b1ffa21a0|/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+      "pin_to_pin|2425700|660400|1a6cdbd5-ba15-4c6e-b49e-d95e36930297|72a7d3c0-eea4-43b9-91ba-9dc2c990d340|/1418ad6a-8a4d-429d-b07e-469b1ffa21a0|/1418ad6a-8a4d-429d-b07e-469b1ffa21a0|/1418ad6a-8a4d-429d-b07e-469b1ffa21a0",
+      "pin_to_pin|393700|1828800|94dc8112-70e0-4673-abd3-fd7b113cfbc2|bac9c629-b739-4304-9828-0222cdbfe48d|/1418ad6a-8a4d-429d-b07e-469b1ffa21a0|/1418ad6a-8a4d-429d-b07e-469b1ffa21a0|/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
     ],
     "meta": {
       "version": 0
