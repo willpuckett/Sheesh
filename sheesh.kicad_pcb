@@ -1532,7 +1532,7 @@
 		)
 		(fp_line
 			(start -6.858 -6.858)
-			(end -6.857999 -4.826)
+			(end -6.857998 -4.826)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1552,7 +1552,7 @@
 		)
 		(fp_line
 			(start 6.858 -6.858)
-			(end 4.826 -6.857999)
+			(end 4.826 -6.857998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -2044,7 +2044,7 @@
 		)
 		(fp_line
 			(start -6.858 -6.858)
-			(end -6.857999 -4.826)
+			(end -6.857998 -4.826)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -2064,7 +2064,7 @@
 		)
 		(fp_line
 			(start 6.858 -6.858)
-			(end 4.826 -6.857999)
+			(end 4.826 -6.857998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -3580,7 +3580,7 @@
 		)
 		(fp_line
 			(start -6.858 -6.858)
-			(end -6.857999 -4.826)
+			(end -6.857998 -4.826)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -3600,7 +3600,7 @@
 		)
 		(fp_line
 			(start 6.858 -6.858)
-			(end 4.826 -6.857999)
+			(end 4.826 -6.857998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -4092,7 +4092,7 @@
 		)
 		(fp_line
 			(start -6.858 -6.858)
-			(end -6.857999 -4.826)
+			(end -6.857998 -4.826)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -4112,7 +4112,7 @@
 		)
 		(fp_line
 			(start 6.858 -6.858)
-			(end 4.826 -6.857999)
+			(end 4.826 -6.857998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -5628,7 +5628,7 @@
 		)
 		(fp_line
 			(start -6.858 -6.858)
-			(end -6.857999 -4.826)
+			(end -6.857998 -4.826)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -5648,7 +5648,7 @@
 		)
 		(fp_line
 			(start 6.858 -6.858)
-			(end 4.826 -6.857999)
+			(end 4.826 -6.857998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -6140,7 +6140,7 @@
 		)
 		(fp_line
 			(start -6.858 -6.858)
-			(end -6.857999 -4.826)
+			(end -6.857998 -4.826)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -6160,7 +6160,7 @@
 		)
 		(fp_line
 			(start 6.858 -6.858)
-			(end 4.826 -6.857999)
+			(end 4.826 -6.857998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -6541,7 +6541,7 @@
 		)
 		(fp_arc
 			(start -8.6 8.49968)
-			(mid -8.879057 8.404413)
+			(mid -8.879056 8.404412)
 			(end -9.000406 8.135669)
 			(stroke
 				(width 0.12)
@@ -7554,7 +7554,7 @@
 			(uuid "64c52ba7-9964-46b2-9c8b-6819dc8e5468")
 		)
 		(fp_line
-			(start -10.441082 5.61464)
+			(start -10.441083 5.61464)
 			(end -10.441081 3.52864)
 			(stroke
 				(width 0.001)
@@ -7565,7 +7565,7 @@
 		)
 		(fp_line
 			(start -8.341081 5.614639)
-			(end -10.441082 5.61464)
+			(end -10.441083 5.61464)
 			(stroke
 				(width 0.001)
 				(type solid)
@@ -7811,7 +7811,7 @@
 			(uuid "f5490577-3194-4799-ab2f-365fa7f301db")
 		)
 		(pad "5" thru_hole circle
-			(at -2.54 -7.619999 350)
+			(at -2.54 -7.619998 350)
 			(size 1.5 1.5)
 			(drill 0.85)
 			(layers "*.Cu" "*.Mask")
@@ -7888,7 +7888,7 @@
 			(uuid "3686ba2d-133d-49c1-ad1a-564d84d6fe77")
 		)
 		(pad "12" thru_hole circle
-			(at 2.54 7.619999 170)
+			(at 2.54 7.619998 170)
 			(size 1.5 1.5)
 			(drill 0.85)
 			(layers "*.Cu" "*.Mask")
@@ -9788,7 +9788,7 @@
 			(uuid "3eda3bb2-c5ff-4ab3-9540-c0d01a6d4054")
 		)
 		(fp_line
-			(start -8.341081 5.614641)
+			(start -8.341081 5.614642)
 			(end -10.441082 5.61464)
 			(stroke
 				(width 0.001)
@@ -9848,7 +9848,7 @@
 			(uuid "457f1de0-499e-4911-839b-703ba36a26d4")
 		)
 		(fp_line
-			(start -4.604081 7.714641)
+			(start -4.604081 7.714642)
 			(end -4.604081 7.51464)
 			(stroke
 				(width 0.001)
@@ -10023,7 +10023,7 @@
 			(uuid "686be382-66ca-42b6-ae0b-e32a3d22d740")
 		)
 		(pad "3" thru_hole circle
-			(at 2.54 -7.619999 10)
+			(at 2.54 -7.619998 10)
 			(size 1.5 1.5)
 			(drill 0.85)
 			(layers "*.Cu" "*.Mask")
@@ -10100,7 +10100,7 @@
 			(uuid "3ea3371d-7949-445b-ba9c-03372a1dc9ca")
 		)
 		(pad "10" thru_hole circle
-			(at -2.54 7.619999 190)
+			(at -2.54 7.619998 190)
 			(size 1.5 1.5)
 			(drill 0.85)
 			(layers "*.Cu" "*.Mask")
@@ -10203,7 +10203,7 @@
 			(uuid "97c322d0-abf6-4aa4-ad7a-1ce8f59894d9")
 		)
 		(pad "18" smd roundrect
-			(at 6.0325 -1.269999 280)
+			(at 6.0325 -1.269998 280)
 			(size 1.143 1.143)
 			(layers "F.Cu")
 			(roundrect_rratio 0.5)
@@ -13982,7 +13982,7 @@
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -8.63 -8.5)
-			(end 8.599914 -8.5)
+			(end 8.599913 -8.5)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -14062,7 +14062,7 @@
 		)
 		(fp_arc
 			(start -8.994012 -8.099594)
-			(mid -8.898745 -8.378652)
+			(mid -8.898744 -8.378652)
 			(end -8.63 -8.5)
 			(stroke
 				(width 0.12)
@@ -14083,8 +14083,8 @@
 			(uuid "72d0c3bf-d062-4513-a225-64ad624d88a4")
 		)
 		(fp_arc
-			(start 8.599914 -8.5)
-			(mid 8.878978 -8.404733)
+			(start 8.599913 -8.5)
+			(mid 8.878978 -8.404734)
 			(end 9.000321 -8.135989)
 			(stroke
 				(width 0.12)
@@ -14196,7 +14196,7 @@
 		)
 		(fp_line
 			(start -6.858 -6.858)
-			(end -4.826 -6.857999)
+			(end -4.826 -6.857998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -14236,7 +14236,7 @@
 		)
 		(fp_line
 			(start 6.858 -6.858)
-			(end 6.857999 -4.826)
+			(end 6.857998 -4.826)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -14521,7 +14521,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -1.1 -1.100001) (xy 1.100001 -1.1) (xy 1.1 1.100001) (xy -1.100001 1.1)
+				(xy -1.1 -1.100002) (xy 1.100002 -1.1) (xy 1.1 1.100002) (xy -1.100002 1.1)
 			)
 			(stroke
 				(width 0.1)
@@ -14705,7 +14705,7 @@
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -8.63 -8.5)
-			(end 8.599914 -8.5)
+			(end 8.599913 -8.5)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -14785,7 +14785,7 @@
 		)
 		(fp_arc
 			(start -8.994012 -8.099594)
-			(mid -8.898745 -8.378652)
+			(mid -8.898744 -8.378652)
 			(end -8.63 -8.5)
 			(stroke
 				(width 0.12)
@@ -14806,8 +14806,8 @@
 			(uuid "c2ea4744-0c61-4009-8d23-8c64f5936343")
 		)
 		(fp_arc
-			(start 8.599914 -8.5)
-			(mid 8.878978 -8.404733)
+			(start 8.599913 -8.5)
+			(mid 8.878978 -8.404734)
 			(end 9.000321 -8.135989)
 			(stroke
 				(width 0.12)
@@ -14919,7 +14919,7 @@
 		)
 		(fp_line
 			(start -6.858 -6.858)
-			(end -4.826 -6.857999)
+			(end -4.826 -6.857998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -14959,7 +14959,7 @@
 		)
 		(fp_line
 			(start 6.858 -6.858)
-			(end 6.857999 -4.826)
+			(end 6.857998 -4.826)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -15244,7 +15244,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -1.1 -1.100001) (xy 1.100001 -1.1) (xy 1.1 1.100001) (xy -1.100001 1.1)
+				(xy -1.1 -1.100002) (xy 1.100002 -1.1) (xy 1.1 1.100002) (xy -1.100002 1.1)
 			)
 			(stroke
 				(width 0.1)
@@ -17743,7 +17743,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -1.1 -1.100001) (xy 1.100001 -1.1) (xy 1.1 1.100001) (xy -1.100001 1.1)
+				(xy -1.1 -1.100002) (xy 1.100002 -1.1) (xy 1.1 1.100002) (xy -1.100002 1.1)
 			)
 			(stroke
 				(width 0.1)
@@ -17927,7 +17927,7 @@
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -8.63 -8.5)
-			(end 8.599914 -8.5)
+			(end 8.599913 -8.5)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -18007,7 +18007,7 @@
 		)
 		(fp_arc
 			(start -8.994012 -8.099594)
-			(mid -8.898745 -8.378652)
+			(mid -8.898744 -8.378652)
 			(end -8.63 -8.5)
 			(stroke
 				(width 0.12)
@@ -18028,8 +18028,8 @@
 			(uuid "76641a71-c2c9-4762-bfb3-30f41466e885")
 		)
 		(fp_arc
-			(start 8.599914 -8.5)
-			(mid 8.878978 -8.404733)
+			(start 8.599913 -8.5)
+			(mid 8.878978 -8.404734)
 			(end 9.000321 -8.135989)
 			(stroke
 				(width 0.12)
@@ -18141,7 +18141,7 @@
 		)
 		(fp_line
 			(start -6.858 -6.858)
-			(end -4.826 -6.857999)
+			(end -4.826 -6.857998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -18181,7 +18181,7 @@
 		)
 		(fp_line
 			(start 6.858 -6.858)
-			(end 6.857999 -4.826)
+			(end 6.857998 -4.826)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -18439,7 +18439,7 @@
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -8.63 -8.5)
-			(end 8.599914 -8.5)
+			(end 8.599913 -8.5)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -18519,7 +18519,7 @@
 		)
 		(fp_arc
 			(start -8.994012 -8.099594)
-			(mid -8.898745 -8.378652)
+			(mid -8.898744 -8.378652)
 			(end -8.63 -8.5)
 			(stroke
 				(width 0.12)
@@ -18540,8 +18540,8 @@
 			(uuid "727ab8d3-1282-4725-b8fc-5259d67d980a")
 		)
 		(fp_arc
-			(start 8.599914 -8.5)
-			(mid 8.878978 -8.404733)
+			(start 8.599913 -8.5)
+			(mid 8.878978 -8.404734)
 			(end 9.000321 -8.135989)
 			(stroke
 				(width 0.12)
@@ -18653,7 +18653,7 @@
 		)
 		(fp_line
 			(start -6.858 -6.858)
-			(end -4.826 -6.857999)
+			(end -4.826 -6.857998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -18693,7 +18693,7 @@
 		)
 		(fp_line
 			(start 6.858 -6.858)
-			(end 6.857999 -4.826)
+			(end 6.857998 -4.826)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -19673,7 +19673,7 @@
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -8.63 -8.5)
-			(end 8.599914 -8.5)
+			(end 8.599913 -8.5)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -19753,7 +19753,7 @@
 		)
 		(fp_arc
 			(start -8.994012 -8.099594)
-			(mid -8.898745 -8.378652)
+			(mid -8.898744 -8.378652)
 			(end -8.63 -8.5)
 			(stroke
 				(width 0.12)
@@ -19774,8 +19774,8 @@
 			(uuid "443fc5ac-8d66-411f-a377-029a1edef79f")
 		)
 		(fp_arc
-			(start 8.599914 -8.5)
-			(mid 8.878978 -8.404733)
+			(start 8.599913 -8.5)
+			(mid 8.878978 -8.404734)
 			(end 9.000321 -8.135989)
 			(stroke
 				(width 0.12)
@@ -19887,7 +19887,7 @@
 		)
 		(fp_line
 			(start -6.858 -6.858)
-			(end -4.826 -6.857999)
+			(end -4.826 -6.857998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -19927,7 +19927,7 @@
 		)
 		(fp_line
 			(start 6.858 -6.858)
-			(end 6.857999 -4.826)
+			(end 6.857998 -4.826)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -20212,7 +20212,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -1.1 -1.100001) (xy 1.100001 -1.1) (xy 1.1 1.100001) (xy -1.100001 1.1)
+				(xy -1.1 -1.100002) (xy 1.100002 -1.1) (xy 1.1 1.100002) (xy -1.100002 1.1)
 			)
 			(stroke
 				(width 0.1)
@@ -21145,7 +21145,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -1.100001 -1.1) (xy 1.1 -1.100001) (xy 1.100001 1.1) (xy -1.1 1.100001)
+				(xy -1.100002 -1.1) (xy 1.1 -1.100002) (xy 1.100002 1.1) (xy -1.1 1.100002)
 			)
 			(stroke
 				(width 0.1)
@@ -23946,7 +23946,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -1.100001 -1.1) (xy 1.1 -1.100001) (xy 1.100001 1.1) (xy -1.1 1.100001)
+				(xy -1.100002 -1.1) (xy 1.1 -1.100002) (xy 1.100002 1.1) (xy -1.1 1.100002)
 			)
 			(stroke
 				(width 0.1)
@@ -24669,7 +24669,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -1.100001 -1.1) (xy 1.1 -1.100001) (xy 1.100001 1.1) (xy -1.1 1.100001)
+				(xy -1.100002 -1.1) (xy 1.1 -1.100002) (xy 1.100002 1.1) (xy -1.1 1.100002)
 			)
 			(stroke
 				(width 0.1)
@@ -25713,7 +25713,7 @@
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -8.63 -8.5)
-			(end 8.599914 -8.5)
+			(end 8.599913 -8.5)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -25793,7 +25793,7 @@
 		)
 		(fp_arc
 			(start -8.994012 -8.099594)
-			(mid -8.898745 -8.378652)
+			(mid -8.898744 -8.378652)
 			(end -8.63 -8.5)
 			(stroke
 				(width 0.12)
@@ -25814,8 +25814,8 @@
 			(uuid "34e74dc8-decb-44d8-9df5-64a45a5ff176")
 		)
 		(fp_arc
-			(start 8.599914 -8.5)
-			(mid 8.878978 -8.404733)
+			(start 8.599913 -8.5)
+			(mid 8.878978 -8.404734)
 			(end 9.000321 -8.135989)
 			(stroke
 				(width 0.12)
@@ -25927,7 +25927,7 @@
 		)
 		(fp_line
 			(start -6.858 -6.858)
-			(end -4.826 -6.857999)
+			(end -4.826 -6.857998)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -25967,7 +25967,7 @@
 		)
 		(fp_line
 			(start 6.858 -6.858)
-			(end 6.857999 -4.826)
+			(end 6.857998 -4.826)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -26851,7 +26851,7 @@
 		)
 		(fp_arc
 			(start 2.355832 5.442351)
-			(mid -0.480692 4.1382)
+			(mid -0.480693 4.1382)
 			(end -2.15 1.500001)
 			(stroke
 				(width 0.25)
@@ -27428,7 +27428,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -1.1 -1.100001) (xy 1.100001 -1.1) (xy 1.1 1.100001) (xy -1.100001 1.1)
+				(xy -1.1 -1.100002) (xy 1.100002 -1.1) (xy 1.1 1.100002) (xy -1.100002 1.1)
 			)
 			(stroke
 				(width 0.1)
@@ -27911,7 +27911,7 @@
 		)
 		(fp_arc
 			(start 8.209767 0.991215)
-			(mid 6.834509 3.585383)
+			(mid 6.834508 3.585383)
 			(end 4.24 4.96)
 			(stroke
 				(width 0.25)
@@ -28575,12 +28575,12 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C109335"
+		(property "LCSC" "C109335"
 			(at 0 0 -170)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2b6cbb3e-8633-40e1-a3dc-d9600e8d4b95")
+			(uuid "bf920933-8597-4864-af49-a87e8db5e862")
 			(effects
 				(font
 					(size 1 1)
@@ -28603,7 +28603,7 @@
 			(uuid "e243cd71-7a21-4659-93f0-228494832c7a")
 		)
 		(fp_line
-			(start 2.97 1.749999)
+			(start 2.97 1.749998)
 			(end -3 1.75)
 			(stroke
 				(width 0.25)
@@ -28736,7 +28736,7 @@
 		)
 		(fp_circle
 			(center -3.85 -1.74)
-			(end -3.82 -1.739999)
+			(end -3.82 -1.739998)
 			(stroke
 				(width 0.06)
 				(type solid)
@@ -28983,7 +28983,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -1.100001 -1.1) (xy 1.1 -1.100001) (xy 1.100001 1.1) (xy -1.1 1.100001)
+				(xy -1.100002 -1.1) (xy 1.1 -1.100002) (xy 1.100002 1.1) (xy -1.1 1.100002)
 			)
 			(stroke
 				(width 0.1)
@@ -29194,7 +29194,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -1.100001 -1.1) (xy 1.1 -1.100001) (xy 1.100001 1.1) (xy -1.1 1.100001)
+				(xy -1.100002 -1.1) (xy 1.1 -1.100002) (xy 1.100002 1.1) (xy -1.1 1.100002)
 			)
 			(stroke
 				(width 0.1)
@@ -30015,12 +30015,12 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C109335"
+		(property "LCSC" "C109335"
 			(at 0 0 170)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0436b202-644c-4947-a3f0-1bedbb58a550")
+			(uuid "d721af36-5096-41f9-b8e0-9bfb49ee679f")
 			(effects
 				(font
 					(size 1 1)
@@ -30093,7 +30093,7 @@
 			(uuid "816e1702-88e4-4d75-b1be-63b5e39afb91")
 		)
 		(fp_line
-			(start -0.3 3.350001)
+			(start -0.3 3.350002)
 			(end 0.6 3.35)
 			(stroke
 				(width 0.25)
@@ -30103,7 +30103,7 @@
 			(uuid "5c2023c0-e9b9-4cd8-9f11-40be31f0e50e")
 		)
 		(fp_line
-			(start -0.3 3.350001)
+			(start -0.3 3.350002)
 			(end -0.5 3.15)
 			(stroke
 				(width 0.25)

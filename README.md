@@ -13,10 +13,10 @@ cool.
 
 I had been wanting to squeeze a Ferris Sweep out of a Xiao somehow and it
 occurred to me as I later continued working that maybe I was actually trying to
-make a 28 key keyboard. When I started searching for a board outline, I reached for a 
-leaf to lay over the keys. I choose a maple leaf both for the aesthetic quality with
-which the keys fit, and for the pleasant memories of eating maple butter in
-Montreal's Jean-Talon Market it conjured.
+make a 28 key keyboard. When I started searching for a board outline, I reached
+for a leaf to lay over the keys. I choose a maple leaf both for the aesthetic
+quality with which the keys fit, and for the pleasant memories of eating maple
+butter in Montreal's Jean-Talon Market it conjured.
 
 > [!NOTE]
 > The name _sheesh_ honors the Ojibway people, who (according to the interwebs)
@@ -32,15 +32,15 @@ is more than an order of magnitude cheaper.
 > [!IMPORTANT]
 > If you have time, please drop a note to your local Seeed representative asking
 > that they via the PDM pins (pins 0.16, 1.0, and 1.10) to pads on the underside
-> of Xiao nFR52840. [Seeed USA](mailto:seeed_us@seeed.cc)
-> [Seeed Europe](mailto:seeed_emea@seeed.cc)
+> of Xiao nRF52840. [[Seeed USA](mailto:seeed_us@seeed.cc)]
+> [[Seeed Europe](mailto:seeed_emea@seeed.cc)]
 
 ## BOM
 
 |      QTY      |            Part            | JLCPCB Part # |
 | :-----------: | :------------------------: | :-----------: |
 |       2       |     BAT-SMD_MY-LR44-02     |   C2902345    |
-|       2       |         SSSS811101          |    C109335    |
+|       2       |         SSSS811101         |    C109335    |
 |       4       |     MF254V-11-07-0743      |   C2889988    |
 |       8       |       YZ00615050R-04       |   C5157400    |
 | 56 (optional) |  3305-0-15-80-47-27-10-0   |   C17370797   |
@@ -51,10 +51,12 @@ is more than an order of magnitude cheaper.
 
 [![KiBot](https://github.com/willpuckett/Sheesh/actions/workflows/kibot.yml/badge.svg)](https://github.com/willpuckett/Sheesh/actions/workflows/kibot.yml)
 
-#### Fabrication & Assembly Files[[zip](https://github.com/willpuckett/Sheesh/releases/latest/download/jlcpcb.zip)] 
+### Fabrication & Assembly Files
 
-For the love of god and country, please have this fabricated with red mask and
-white silk.
+[[zip](https://github.com/willpuckett/Sheesh/releases/latest/download/jlcpcb.zip)]
+
+For the love of god and country 🇨🇦, please have this fabricated with red mask
+and white silk.
 
 > [!CAUTION]
 > Use 3.7v LIR1254 (lithium ion rechargable) battery **only**.
@@ -63,15 +65,17 @@ white silk.
 
 [![Build123d Case](https://github.com/willpuckett/Sheesh/actions/workflows/case.yml/badge.svg)](https://github.com/willpuckett/Sheesh/actions/workflows/case.yml)
 
-There's a case
+### There's a case
+
 [[step](https://github.com/willpuckett/Sheesh/releases/latest/download/case.step)]
 [[stl](https://github.com/willpuckett/Sheesh/releases/latest/download/case.step)]
-that's really more of a skin. Print and place the pcb directly in it.
+
+
+It's really more of a skin. Print and place the pcb directly in it. Red or white TPU is ideal... The case is only one half, flip it in your slicer for the other half 🙃
 
 > [!TIP]
 > Polymaker TPU works well. It seems to like to print slow and cool—leave the
-> door open. Red or white would be ideal... The case is only one half, flip it
-> in your slicer for the other half 🙃
+> door open. 
 
 TPU is relatively non-slip, and it absorbs and distributes the force of typing
 very nicely, so no bumpons needed which further reduces height.

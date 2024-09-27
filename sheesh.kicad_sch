@@ -862,7 +862,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C109335"
+			(property "LCSC" "C109335"
 				(at 0 -27.94 0)
 				(effects
 					(font
@@ -6325,7 +6325,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C109335"
+		(property "LCSC" "C109335"
 			(at 40.64 151.13 0)
 			(effects
 				(font
@@ -12332,7 +12332,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C109335"
+		(property "LCSC" "C109335"
 			(at 113.03 152.4 0)
 			(effects
 				(font
