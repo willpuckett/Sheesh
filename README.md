@@ -104,6 +104,7 @@ The link contains the following layouts...
 
 ![QWERTY](.images/keymap_QWERTY.svg)
 
+
 </details>
 
 <details>
@@ -127,3 +128,8 @@ The link contains the following layouts...
 ![Engrammer](.images/keymap_ENGRAMMER.svg)
 
 </details>
+
+
+## Pre Fabs
+
+I'll put the extras on my [etsy](https://octule.etsy.com) when they arrive if you don't want to have to deal with a minimum order...
