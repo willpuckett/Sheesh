@@ -261,7 +261,7 @@
 			layers = <0>;
 			bindings = <&kp SLASH>;
 		};
-		#elseif LAYOUT == QWERTY
+		#elif LAYOUT == QWERTY
 
 
 		#endif
@@ -282,7 +282,7 @@
 			&mqt KP TAB &mqt NAV BSPC &mqt NAV SPACE &mqt KP RETURN
 			>;
 		};
-		#elif LAYOUT == ENGRAMMER
+	#elif LAYOUT == ENGRAMMER
 		engrammer_layer {
 			label = "Engrammer";
 			bindings = <
