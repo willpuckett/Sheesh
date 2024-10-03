@@ -189,25 +189,81 @@
 		combo_esc {
 			timeout-ms = <50>;
 			key-positions = <0 8>;
+			layers = <0>;
 			bindings = <&kp ESC>;
 		};
 		combo_caps_word {
 			timeout-ms = <50>;
 			key-positions = <8 16>;
+			layers = <0>;
 			bindings = <&caps_word>;
 		};
+		combo_f1 {
+			timeout-ms = <50>;
+			key-positions = <0 1>;
+			layers = <2>;
+			bindings = <&kp F1>;
+		};
+		combo_f12 {
+			timeout-ms = <50>;
+			key-positions = <6 7>;
+			layers = <2>;
+			bindings = <&kp F12>;
+		};
+
 		
 		#if LAYOUT == ENGRAM || LAYOUT == ENGRAMMER
 		combo_z {
 			timeout-ms = <50>;
 			key-positions = <7 15>;
+			layers = <0>;
 			bindings = <&kp Z>;
 		};
 		combo_q {
 			timeout-ms = <50>;
 			key-positions = <15 23>;
+			layers = <0>;
 			bindings = <&kp Q>;
 		};
+		combo_minus {
+			timeout-ms = <50>;
+			key-positions = <8 9>;
+			layers = <0>;
+			bindings = <&kp MINUS>;
+		};
+		combo_comma {
+			timeout-ms = <50>;
+			key-positions = <9 10>;
+			layers = <0>;
+			bindings = <&kp COMMA>;
+		};
+		combo_sqt {
+			timeout-ms = <50>;
+			key-positions = <10 11>;
+			layers = <0>;
+			bindings = <&kp SQT>;
+		};
+		combo_semi {
+			timeout-ms = <50>;
+			key-positions = <12 13>;
+			layers = <0>;
+			bindings = <&kp SEMI>;
+		};
+		combo_dot {
+			timeout-ms = <50>;
+			key-positions = <13 14>;
+			layers = <0>;
+			bindings = <&kp DOT>;
+		};
+		combo_slash {
+			timeout-ms = <50>;
+			key-positions = <14 15>;
+			layers = <0>;
+			bindings = <&kp SLASH>;
+		};
+		elseif LAYOUT == QWERTY
+
+
 		#endif
 		
 	};
@@ -241,7 +297,7 @@
 			label = "Base";
 			bindings = <
 			&kp Q &kp W &kp E &kp R     &kp U   &kp I  		&kp O 	&kp P
-			&kp A &kp S &kp D &kp F     &kp J   &kp K  		&kp L 	&kp SEMI
+			&hl LCTRL A &hl LALT S 	&hl LGUI D  &hls LSHFT F    &hrs RSHFT J  	&hr RGUI K 	&hr RALT L 	&hr RCTRL SEMI
 			&kp Z &kp X &kp C &kp V     &kp M   &kp COMMA 	&kp DOT &kp SLASH
 			&mqt KP TAB &mqt NAV BSPC &mqt NAV SPACE &mqt KP RETURN
 			>;
@@ -285,7 +341,7 @@
 		kp_layer {
 			label = "Kp";
 			bindings = <
-			&bt BT_CLR		&bt BT_PRV     	&bt BT_NXT		&out OUT_USB    &kp  KP_N7 	&kp KP_N8 	&kp KP_N9 	&kp KP_MINUS
+			&bt BT_CLR		&trans	     	&out OUT_BLE	&out OUT_USB    &kp  KP_N7 	&kp KP_N8 	&kp KP_N9 	&kp KP_MINUS
 			&bt BT_SEL 0  	&bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &kp KP_N4  	&kp KP_N5 	&kp KP_N6 	&kp KP_PLUS
 			&trans  	  	&trans     		&trans          &trans          &kp KP_N1  	&kp KP_N2	&kp KP_N3 	&kp KP_ENTER
 			&trans         	&trans 			&kp KP_N0       &kp KP_DOT
