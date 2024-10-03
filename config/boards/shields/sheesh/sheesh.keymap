@@ -261,7 +261,7 @@
 			layers = <0>;
 			bindings = <&kp SLASH>;
 		};
-		elseif LAYOUT == QWERTY
+		#elseif LAYOUT == QWERTY
 
 
 		#endif
