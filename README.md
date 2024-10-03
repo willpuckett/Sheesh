@@ -132,14 +132,14 @@ The link contains the following layouts...
 
 ## Pre Fabs
 
-I'll put the extras on my [etsy](https://octule.etsy.com) when they arrive if you don't want to have to deal with a minimum order...
+The extras will be [available](https://octule.com) when they arrive if you don't want to have to deal with a minimum order...
 
 ## Writing Your Own keymap
 
 If you happen to make this but for some unimaginable reason find my keymap less than navigable 😳, you can easily make your own that references the sheesh shield...
 
 > [!TIP]
-> Don't feel like going through the below steps? Unpack [this zip](https://github.com/willpuckett/sheesh/zmk-config.zip), edit, and push to your github account to build.
+> Don't feel like going through the below steps? Unpack [this zip](https://github.com/willpuckett/sheesh/config/zmk-config.zip), edit, and push to your github account to build.
 
 1. Init a new ZMK repo `bash -c "$(curl -fsSL https://zmk.dev/setup.sh)"`
 2. Type `1` to select a keyboard
@@ -177,6 +177,7 @@ manifest:
       import: app/west.yml
     - name: sheesh
       remote: willpuckett
+      repo-path: sheesh/config
       revision: main
   self:
     path: config

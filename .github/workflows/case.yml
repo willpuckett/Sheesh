@@ -27,6 +27,12 @@ jobs:
     #     name: BOARD_OUTLINE
     #     path: edges.svg
     #     run-id: ${{ github.event.workflow_run.id }}
+    # - uses: actions/checkout@v4
+    # - uses: INTI-CMNB/KiBot@v2_dk8
+    #   with:
+    #     variant: board
+    #     skip: erc,drc
+    #     targets: JLCPCB_POSITION
     - run: |
         echo "Installing dependencies..."
         python3 -m pip install vpype build123d
