@@ -343,7 +343,7 @@
 			bindings = <
 			&bt BT_CLR		&bootloader 	&out OUT_BLE	&out OUT_USB    &kp  KP_N7 	&kp KP_N8 	&kp KP_N9 	&kp KP_MINUS
 			&bt BT_SEL 0  	&bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &kp KP_N4  	&kp KP_N5 	&kp KP_N6 	&kp KP_PLUS
-			&trans  	  	&trans     		&trans          &trans          &kp KP_N1  	&kp KP_N2	&kp KP_N3 	&kp KP_ENTER
+			&trans  	  	&trans     		&trans          &trans          &kp KP_N1  	&kp KP_N2	&kp KP_N3 	&bootloader
 			&trans         	&trans 			&kp KP_N0       &kp KP_DOT
 			>;
 		};
