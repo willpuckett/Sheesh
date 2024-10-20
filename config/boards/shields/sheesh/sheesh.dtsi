@@ -10,10 +10,6 @@
 #define KEYS_R 4 5 6 7 12 13 14 15 20 21 22 23 26 27// right-hand keys
 #define THUMBS 24 25 26 27// thumb keys
 
-#define HM_TAPPING_TERM 1000
-#define HM_TAPPING_TERM_FAST 200
-#define HM_TAPPING_TERM_QT 175
-
 / {
 	chosen {
 		zmk,kscan = &kscan0;

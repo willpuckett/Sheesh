@@ -63,39 +63,45 @@
 			bindings = <&kp Q>;
 		};
 		combo_minus {
-			timeout-ms = <25>;
+			timeout-ms = <50>;
 			key-positions = <8 9>;
 			layers = <0>;
+			require-prior-idle-ms = <175>;
 			bindings = <&kp MINUS>;
 		};
 		combo_comma {
-			timeout-ms = <25>;
+			timeout-ms = <50>;
 			key-positions = <9 10>;
 			layers = <0>;
+			require-prior-idle-ms = <175>;
 			bindings = <&kp COMMA>;
 		};
 		combo_sqt {
-			timeout-ms = <25>;
+			timeout-ms = <50>;
 			key-positions = <10 11>;
 			layers = <0>;
+			require-prior-idle-ms = <175>;
 			bindings = <&kp SQT>;
 		};
 		combo_semi {
-			timeout-ms = <25>;
+			timeout-ms = <50>;
 			key-positions = <12 13>;
 			layers = <0>;
+			require-prior-idle-ms = <175>;
 			bindings = <&kp SEMI>;
 		};
 		combo_dot {
-			timeout-ms = <25>;
+			timeout-ms = <50>;
 			key-positions = <13 14>;
 			layers = <0>;
+			require-prior-idle-ms = <175>;
 			bindings = <&kp DOT>;
 		};
 		combo_slash {
-			timeout-ms = <25>;
+			timeout-ms = <50>;
 			key-positions = <14 15>;
 			layers = <0>;
+			require-prior-idle-ms = <175>;
 			bindings = <&kp SLASH>;
 		};
 		#elif LAYOUT == QWERTY

@@ -1,3 +1,8 @@
+#define HM_TAPPING_TERM 1000
+#define HM_TAPPING_TERM_FAST 200
+#define HM_TAPPING_TERM_QT 175
+
+
 / {
 	behaviors {
 		
@@ -26,7 +31,7 @@
 			#binding-cells = <2>;
 			flavor = "balanced";
 			tapping-term-ms = <HM_TAPPING_TERM_FAST>;
-			quick_tap_ms = <HM_TAPPING_TERM_QT>;
+			require-prior-idle-ms = <HM_TAPPING_TERM_QT>;
 			hold-trigger-key-positions = < KEYS_R THUMBS >;
 			bindings = <&kp>, <&kp>;
 		};
@@ -36,7 +41,7 @@
 			#binding-cells = <2>;
 			flavor = "balanced";
 			tapping-term-ms = <HM_TAPPING_TERM_FAST>;
-			quick_tap_ms = <HM_TAPPING_TERM_QT>;
+			require-prior-idle-ms = <HM_TAPPING_TERM_QT>;
 			hold-trigger-key-positions = < KEYS_L THUMBS >;
 			bindings = <&kp>, <&kp>;
 		};
@@ -47,7 +52,7 @@
 			flavor = "tap-preferred";
 			tapping-term-ms = <200>;
 			quick-tap-ms = <125>;
-			global-quick-tap;
+			require-prior-idle-ms = <HM_TAPPING_TERM_QT>;
 			bindings = <&mo>, <&kp>;
 		};
 		
