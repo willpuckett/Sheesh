@@ -108,7 +108,6 @@
 		
     #if LAYOUT == ENGRAM
 		engram_layer {
-			label = "Engram";
 			bindings = <
 			&kp B    	&kp Y    	&kp O     	&kp U     		&kp L      		&kp D    	&kp W   	&kp V
 			&hl LCTRL C &hl LALT I 	&hl LGUI E  &hls LSHFT A    &hrs RSHFT H  	&hr RGUI T 	&hr RALT S 	&hr RCTRL N
@@ -118,7 +117,6 @@
 		};
 	#elif LAYOUT == ENGRAMMER
 		engrammer_layer {
-			label = "Engrammer";
 			bindings = <
 			&kp B    	&kp Y    	&kp O     	&kp U       	&kp L      		&kp D    	&kp W    	&kp V
 			&hl LCTRL C &hl LALT I 	&hl LGUI E  &hls LSHFT A    &hrs RSHFT H  	&hr RGUI T 	&hr RALT S 	&hr RCTRL N
@@ -129,7 +127,6 @@
     #endif
 
 		nav_layer {
-			label = "Nav";
 			bindings = <
 			&kp EXCL   		&kp AT     		&kp LBKT    	&kp RBKT      	&kp  HOME       &kp PG_DN      	&kp PG_UP   	&kp END
 			&hl LCTRL LPAR 	&hl LALT RPAR 	&hl LGUI LBRC 	&hls LSHFT RBRC &hrs RSHFT LARW	&hr RGUI DARW 	&hr RALT UARW 	&hr RCTRL RARW
@@ -140,7 +137,6 @@
 		
     #if LAYOUT == ENGRAM
 		num_layer {
-			label = "Num";
 			bindings = <
 			&kp F2      &kp F3      &kp F4       &kp F5    &kp F8    	&kp F9     &kp F10     &kp F11
 			&kp PIPE    &kp EQUAL   &kp TILDE    &kp PLUS  &kp CARET    &kp AMPS   &kp PRCNT   &kp STAR
@@ -150,7 +146,6 @@
 		};	
     #else
 		num_layer {
-			label = "Num";
 			bindings = <
 			&kp F2      &kp F3      &kp F4        &kp F5     	&kp F8    &kp F9     &kp F10    &kp F11
 			&kp EXCL    &kp AT   	&kp POUND     &kp DOLLAR    &kp AMPS  &kp ASTRK  &kp LPAR   &kp RPAR
@@ -161,7 +156,6 @@
     #endif
 		
 		kp_layer {
-			label = "Kp";
 			bindings = <
 			&bootloader		&bt BT_CLR		&out OUT_BLE	&out OUT_USB    &kp KP_N7 	&kp KP_N8 	&kp KP_N9 	&bootloader
 			&bt BT_SEL 0  	&bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &kp KP_N4  	&kp KP_N5 	&kp KP_N6 	&kp KP_MINUS
