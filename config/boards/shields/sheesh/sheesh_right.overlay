@@ -5,14 +5,17 @@
  */
 
 #include "sheesh.dtsi"
+#include "sheesh.overlay"
 
 &default_transform {
   col-offset = <14>;
 };
-    // GPIO 0.18 is reset (I think)
-    // GPIO 0.9 and 0.10 are nfc (I think)
-    // Info on PDM pins from https://www.reddit.com/r/olkb/comments/11hl7is/extra_gpio_on_seeed_xiao_controllers_via_zmk/
-    // Personally, I call them out directly by their ID, i.e. gpio0 16, gpio1 0 and gpio1 10. (That’s what they are top to bottom on right side of PDM pad)
+
+	// RESET: GPIO 0.18
+	// NFC: GPIO 0.9 and 0.10
+	// PDM: GPIO 0.16, 1.0, and 1.10 (top to bottom on right side of PDM pad)
+	// https://www.reddit.com/r/olkb/comments/11hl7is/extra_gpio_on_seeed_xiao_controllers_via_zmk/
+	
 &kscan0 {
     input-gpios
         = <&gpio0 18 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>

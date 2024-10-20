@@ -5,3 +5,4 @@
  */
 
 #include "sheesh.dtsi"
+#include "sheesh.overlay"

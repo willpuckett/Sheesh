@@ -1,3 +1,3 @@
-// &uicr {
-// 	/delete-property/ gpio-as-nreset;
-// };
+&uicr {
+	/delete-property/ gpio-as-nreset;
+};
