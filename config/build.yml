@@ -1,14 +1,4 @@
-# board: [seeeduino_xiao_ble]
-# shield: [sheesh]
-
 include:
-  - board:  seeeduino_xiao_ble
-    shield: sheesh_left
-    artifact-name: sheesh_qwerty_left
-  - board:  seeeduino_xiao_ble
-    shield: sheesh_right
-    artifact-name: sheesh_qwerty_right
-
   - board:  seeeduino_xiao_ble
     shield: sheesh_left
     cmake-args: -DDTS_EXTRA_CPPFLAGS=-DLAYOUT=1

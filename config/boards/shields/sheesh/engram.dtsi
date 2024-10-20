@@ -1,0 +1,81 @@
+/*
+* Copyright (c) 2020 The ZMK Contributors
+*
+* SPDX-License-Identifier: MIT
+*/
+
+/ {
+	behaviors {
+		sqlp: single-quote-left-paren {
+			compatible = "zmk,behavior-mod-morph";
+			label = "SINGLE_QUOTE_LEFT_PAREN";
+			#binding-cells = <0>;
+			bindings = <&kp SQT>, <&kp LPAR>;
+			mods = <(MOD_LSFT|MOD_RSFT)>;
+			keep-mods = <(MOD_LALT|MOD_LCTL|MOD_LGUI|MOD_RALT|MOD_RGUI|MOD_RCTL)>;
+		};
+		
+		dqrp: double-quote-right-paren {
+			compatible = "zmk,behavior-mod-morph";
+			label = "DOUBLE_QUOTE_RIGHT_PAREN";
+			#binding-cells = <0>;
+			bindings = <&kp DQT>, <&kp RPAR>;
+			mods = <(MOD_LSFT|MOD_RSFT)>;
+			keep-mods = <(MOD_LALT|MOD_LCTL|MOD_LGUI|MOD_RALT|MOD_RGUI|MOD_RCTL)>;
+		};
+		
+		cmse: comma-semicolon {
+			compatible = "zmk,behavior-mod-morph";
+			label = "COMMA_SEMICOLON";
+			#binding-cells = <0>;
+			bindings = <&kp COMMA>, <&kp SEMI>;
+			mods = <(MOD_LSFT|MOD_RSFT)>;
+			keep-mods = <(MOD_LALT|MOD_LCTL|MOD_LGUI|MOD_RALT|MOD_RGUI|MOD_RCTL)>;
+		};
+		
+		stco: stop-colon {
+			compatible = "zmk,behavior-mod-morph";
+			label = "stco";
+			#binding-cells = <0>;
+			bindings = <&kp DOT>, <&kp COLON>;
+			mods = <(MOD_LSFT|MOD_RSFT)>;
+			keep-mods = <(MOD_LALT|MOD_LCTL|MOD_LGUI|MOD_RALT|MOD_RGUI|MOD_RCTL)>;
+		};
+		
+		qmex: questionmark-exclamation {
+			compatible = "zmk,behavior-mod-morph";
+			label = "QUESTIONMARK_EXCLAMATION";
+			#binding-cells = <0>;
+			bindings = <&kp QMARK>, <&kp EXCL>;
+			mods = <(MOD_LSFT|MOD_RSFT)>;
+			keep-mods = <(MOD_LALT|MOD_LCTL|MOD_LGUI|MOD_RALT|MOD_RGUI|MOD_RCTL)>;
+		};
+		
+		slsh: forward-and-backslash {
+			compatible = "zmk,behavior-mod-morph";
+			label = "SLASHES";
+			#binding-cells = <0>;
+			bindings = <&kp FSLH>, <&kp BSLH>;
+			mods = <(MOD_LSFT|MOD_RSFT)>;
+			keep-mods = <(MOD_LALT|MOD_LCTL|MOD_LGUI|MOD_RALT|MOD_RGUI|MOD_RCTL)>;
+		};
+		
+		habu: pound-dollar {
+			compatible = "zmk,behavior-mod-morph";
+			label = "habu";
+			#binding-cells = <0>;
+			bindings = <&kp POUND>, <&kp DOLLAR>;
+			mods = <(MOD_LSFT|MOD_RSFT)>;
+			keep-mods = <(MOD_LALT|MOD_LCTL|MOD_LGUI|MOD_RALT|MOD_RGUI|MOD_RCTL)>;
+		};
+		
+		atti: at-tilde {
+			compatible = "zmk,behavior-mod-morph";
+			label = "AT_TILDE";
+			#binding-cells = <0>;
+			bindings = <&kp AT>, <&kp GRAVE>;
+			mods = <(MOD_LSFT|MOD_RSFT)>;
+			keep-mods = <(MOD_LALT|MOD_LCTL|MOD_LGUI|MOD_RALT|MOD_RGUI|MOD_RCTL)>;
+		};
+	};
+};

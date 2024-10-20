@@ -1,0 +1,67 @@
+/ {
+	behaviors {
+		
+		hl: home_row_mod_left {
+			compatible = "zmk,behavior-hold-tap";
+			label = "HOME_ROW_MOD_LEFT";
+			#binding-cells = <2>;
+			flavor = "balanced";
+			tapping-term-ms = <HM_TAPPING_TERM>;
+			hold-trigger-key-positions = < KEYS_R THUMBS >;
+			hold-trigger-on-release;
+			bindings = <&kp>, <&kp>;
+		};
+		
+		hr: home_row_mod_right {
+			compatible = "zmk,behavior-hold-tap";
+			label = "HOME_ROW_MOD_RIGHT";
+			#binding-cells = <2>;
+			flavor = "balanced";
+			tapping-term-ms = <HM_TAPPING_TERM>;
+			hold-trigger-key-positions = < KEYS_L THUMBS >;
+			hold-trigger-on-release;
+			bindings = <&kp>, <&kp>;
+		};
+		
+		hls: home_row_mod_left_shift {
+			compatible = "zmk,behavior-hold-tap";
+			label = "HOME_ROW_MOD_LEFT_SHIFT";
+			#binding-cells = <2>;
+			flavor = "balanced";
+			tapping-term-ms = <HM_TAPPING_TERM_FAST>;
+			quick_tap_ms = <HM_TAPPING_TERM_QT>;
+			hold-trigger-key-positions = < KEYS_R THUMBS >;
+			bindings = <&kp>, <&kp>;
+		};
+		
+		hrs: home_row_mod_right_shift {
+			compatible = "zmk,behavior-hold-tap";
+			label = "HOME_ROW_MOD_RIGHT_SHIFT";
+			#binding-cells = <2>;
+			flavor = "balanced";
+			tapping-term-ms = <HM_TAPPING_TERM_FAST>;
+			quick_tap_ms = <HM_TAPPING_TERM_QT>;
+			hold-trigger-key-positions = < KEYS_L THUMBS >;
+			bindings = <&kp>, <&kp>;
+		};
+		
+		mqt: momentary-quick-tap {
+			compatible = "zmk,behavior-hold-tap";
+			label = "MOMENTARY_QUICK_TAP";
+			#binding-cells = <2>;
+			flavor = "tap-preferred";
+			tapping-term-ms = <200>;
+			quick-tap-ms = <125>;
+			global-quick-tap;
+			bindings = <&mo>, <&kp>;
+		};
+		
+		cwe: tap_dance_mod_tap {
+			compatible = "zmk,behavior-tap-dance";
+			label = "CAPS-WORD-DOUBLE_TAP";
+			#binding-cells = <0>;
+			tapping-term-ms = <200>;
+			bindings = <&kp ESC>, <&caps_word>;
+		};
+    };
+};
