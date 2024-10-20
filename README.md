@@ -19,7 +19,7 @@ quality with which the keys fit, and for the pleasant memories of eating maple
 butter in Montreal's Jean-Talon Market it conjured.
 
 > [!NOTE]
-> The name _sheesh_ honors the Ojibway people, who (according to the interwebs)
+> _sheesh_ honors the Ojibway people, who (according to the interwebs)
 > call maple _sheesheegummavvis_: “sap flows fast."
 
 The size of the Xiao makes it so attractive for smaller keyboards. _Sheesh_
@@ -89,23 +89,10 @@ Download the latest ZMK Builds.
 
 |  Layout   |                                                                                                  |                                                                                                    |
 | :-------: | :----------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: |
-|  qwerty   |  [left](https://github.com/willpuckett/Sheesh/releases/latest/download/sheesh_qwerty_left.uf2)   |  [right](https://github.com/willpuckett/Sheesh/releases/latest/download/sheesh_qwerty_right.uf2)   |
 |  engram   |  [left](https://github.com/willpuckett/Sheesh/releases/latest/download/sheesh_engram_left.uf2)   |  [right](https://github.com/willpuckett/Sheesh/releases/latest/download/sheesh_engram_right.uf2)   |
 | engrammer | [left](https://github.com/willpuckett/Sheesh/releases/latest/download/sheesh_engrammer_left.uf2) | [right](https://github.com/willpuckett/Sheesh/releases/latest/download/sheesh_engrammer_right.uf2) |
 
 The link contains the following layouts...
-
-<details>
-<summary>
-
-### QWERTY
-
-</summary>
-
-![QWERTY](.images/keymap_QWERTY.svg)
-
-
-</details>
 
 <details>
 <summary>
@@ -136,7 +123,7 @@ The extras will be [available](https://octule.com) when they arrive if you don't
 
 ## Writing Your Own keymap
 
-If you happen to make this but for some unimaginable reason find my keymap less than navigable 😳, you can easily make your own that references the sheesh shield...
+Should you not be prepared for engram, you can easily make your own keymap that references the sheesh shield...
 
 > [!TIP]
 > Don't feel like going through the below steps? Unpack [this zip](https://github.com/willpuckett/sheesh/config/zmk-config.zip), edit, and push to your github account to build.

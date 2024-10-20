@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PROJECT=sheesh
-LAYOUTS=('QWERTY' 'ENGRAM' 'ENGRAMMER')
+LAYOUTS=('ENGRAM' 'ENGRAMMER')
 COLS=8
 ZMK_KEYMAP="config/boards/shields/${PROJECT}/${PROJECT}.keymap"
 # See [this link](https://github.com/caksoylar/keymap-drawer/blob/main/KEYMAP_SPEC.md#colsthumbs-notation-specification)
