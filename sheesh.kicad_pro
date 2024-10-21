@@ -584,12 +584,6 @@
         },
         {
           "group_by": false,
-          "label": "LCSC Part",
-          "name": "LCSC Part",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "EXCLUDE_FROM_BOM",
           "name": "${EXCLUDE_FROM_BOM}",
           "show": true
@@ -599,7 +593,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "LCSC Part"
+      "sort_field": "${EXCLUDE_FROM_BOM}"
     },
     "connection_grid_size": 50.0,
     "drawing": {
