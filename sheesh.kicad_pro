@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.4,
-          "height": 0.8,
-          "width": 0.8
+          "drill": 0.5,
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -60,7 +60,7 @@
         }
       ],
       "drc_exclusions": [
-        "unconnected_items|157506394|119773396|00000000-0000-0000-0000-000061c223b4|00000000-0000-0000-0000-000061c223b4"
+        "unconnected_items|161635176|94503903|00000000-0000-0000-0000-000061c223b4|00000000-0000-0000-0000-000061c223b4"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -239,8 +239,7 @@
   },
   "erc": {
     "erc_exclusions": [
-      "pin_to_pin|2425700|660400|1a6cdbd5-ba15-4c6e-b49e-d95e36930297|72a7d3c0-eea4-43b9-91ba-9dc2c990d340|/1418ad6a-8a4d-429d-b07e-469b1ffa21a0|/1418ad6a-8a4d-429d-b07e-469b1ffa21a0|/1418ad6a-8a4d-429d-b07e-469b1ffa21a0",
-      "pin_to_pin|393700|1828800|94dc8112-70e0-4673-abd3-fd7b113cfbc2|bac9c629-b739-4304-9828-0222cdbfe48d|/1418ad6a-8a4d-429d-b07e-469b1ffa21a0|/1418ad6a-8a4d-429d-b07e-469b1ffa21a0|/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
+      "pin_to_pin|2425700|660400|1a6cdbd5-ba15-4c6e-b49e-d95e36930297|72a7d3c0-eea4-43b9-91ba-9dc2c990d340|/1418ad6a-8a4d-429d-b07e-469b1ffa21a0|/1418ad6a-8a4d-429d-b07e-469b1ffa21a0|/1418ad6a-8a4d-429d-b07e-469b1ffa21a0"
     ],
     "meta": {
       "version": 0

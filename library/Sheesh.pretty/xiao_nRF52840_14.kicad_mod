@@ -465,15 +465,6 @@
 		(remove_unused_layers no)
 		(uuid "94759ae8-8a43-489b-8a02-5a7654791cf0")
 	)
-	(pad "13" smd roundrect
-		(at 2.2225 -4.445 90)
-		(size 2.032 1.016)
-		(layers "F.Cu")
-		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.0381)
-		(thermal_bridge_angle 0)
-		(uuid "518ac05b-158f-498a-bdbd-40adf837a728")
-	)
 	(pad "13" thru_hole circle
 		(at 5.08 7.62 90)
 		(size 1.5 1.5)
@@ -490,24 +481,6 @@
 		(remove_unused_layers no)
 		(uuid "0f8a15ad-74df-4647-b57a-36ea7b65be01")
 	)
-	(pad "15" smd roundrect
-		(at -9.2075 3.81)
-		(size 2.032 1.016)
-		(layers "F.Cu")
-		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.0381)
-		(thermal_bridge_angle 0)
-		(uuid "69a3375d-8e06-4765-825b-6ca9ccffa006")
-	)
-	(pad "16" smd roundrect
-		(at -9.2075 5.715)
-		(size 2.032 1.016)
-		(layers "F.Cu")
-		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.0381)
-		(thermal_bridge_angle 0)
-		(uuid "b8de1e7c-c405-4df1-8333-854202624a03")
-	)
 	(pad "17" smd roundrect
 		(at 0.3175 -4.445 270)
 		(size 2.032 1.016)
@@ -516,16 +489,6 @@
 		(solder_mask_margin 0.0381)
 		(thermal_bridge_angle 0)
 		(uuid "b6ca73cb-3843-4b12-b513-6a9fe2dc1748")
-	)
-	(pad "18" smd roundrect
-		(at 6.0325 -1.27 180)
-		(size 1.143 1.143)
-		(layers "F.Cu")
-		(roundrect_rratio 0.5)
-		(solder_mask_margin 0.0381)
-		(zone_connect 2)
-		(thermal_bridge_angle 0)
-		(uuid "2098d299-3c70-4231-bfc0-a5f317746f00")
 	)
 	(model "${KIPRJMOD}/library/Sheesh.3dshapes/XIAO-nRF52840 v15.step"
 		(offset

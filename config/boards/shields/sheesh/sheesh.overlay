@@ -1,4 +1,0 @@
-&uicr {
-	/delete-property/ gpio-as-nreset;
-	nfct-pins-as-gpios;
-};

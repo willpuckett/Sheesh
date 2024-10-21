@@ -5,32 +5,22 @@
  */
 
 #include "sheesh.dtsi"
-#include "sheesh.overlay"
 
 &default_transform {
-  col-offset = <14>;
+  col-offset = <4>;
 };
 
-	// RESET: GPIO 0.18
-	// NFC: GPIO 0.9 and 0.10
-	// PDM: GPIO 0.16, 1.0, and 1.10 (top to bottom on right side of PDM pad)
-	// https://www.reddit.com/r/olkb/comments/11hl7is/extra_gpio_on_seeed_xiao_controllers_via_zmk/
-	
 &kscan0 {
-    input-gpios
-        = <&gpio0 18 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        , <&xiao_d 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        , <&xiao_d 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        , <&xiao_d 9  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        , <&xiao_d 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        , <&xiao_d 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        , <&xiao_d 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        , <&xiao_d 7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        , <&xiao_d 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        , <&xiao_d 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        , <&gpio0 9  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        , <&gpio0 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        , <&xiao_d 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        , <&xiao_d 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-        ;
-};
+        col-gpios
+            = <&xiao_d 10 GPIO_ACTIVE_HIGH>
+            , <&xiao_d 9 GPIO_ACTIVE_HIGH>
+            , <&xiao_d 8 GPIO_ACTIVE_HIGH>
+            , <&xiao_d 7 GPIO_ACTIVE_HIGH>
+            ;
+        row-gpios
+            = <&xiao_d 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&xiao_d 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&xiao_d 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&xiao_d 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            ;
+    };
