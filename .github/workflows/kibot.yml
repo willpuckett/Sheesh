@@ -36,7 +36,6 @@ jobs:
 
   DRC:
     runs-on: ubuntu-latest
-    needs: ERC
     steps:
       - uses: actions/checkout@v4
       - name: Run DRC
@@ -92,7 +91,7 @@ jobs:
 
   CLEAN:
     runs-on: ubuntu-latest
-    needs: [ERC, DRC, BOARD]
+    needs: [BOARD]
     steps:
       - uses: geekyeggo/delete-artifact@v5
         with:

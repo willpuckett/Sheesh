@@ -22,11 +22,12 @@ butter in Montreal's Jean-Talon Market it conjured.
 > call maple _sheesheegummavvis_: “sap flows fast."
 
 The size of the Xiao makes it so attractive for smaller keyboards. _Sheesh_
-repurposes the reset and nfc pins to squeeze enough I/O to directly connect the
-28 keys. The cost of the pogo pins starts to add up, though. Using generic smd
-ones from LCSC helps, but it's also a little ironic that the total length of the
-battery and the Xiao is about the same as just using a proµ form factor, which
-is more than an order of magnitude cheaper.
+intended to repurpose the reset and nfc pins to squeeze enough I/O to directly
+connect the 28 keys. Unfortunately, coopting the reset pin didn't work well,
+although the initial exploration encouraged me to chord more. It seems to make
+more sense to explore a 26 key layout in another board, so version 0.2 and up
+switch to a diode layout. _Sheesh_ is an exploration in PCBA, and uses 0402
+diodes which are not conducive to handsoldering.
 
 > [!IMPORTANT]
 > If you have time, please drop a note to your local Seeed representative asking
@@ -77,8 +78,8 @@ half 🙃
 > Polymaker TPU works well. It seems to like to print slow and cool—leave the
 > door open.
 
-TPU is relatively non-slip, and it absorbs and distributes the force of typing
-very nicely, so no bumpons needed which further reduces height.
+TPU is relatively non-slip, absorbing and distributing the force of typing very
+nicely. No bumpons required.
 
 ## Layouts
 
@@ -91,8 +92,6 @@ Download the latest ZMK Builds.
 | :-------: | :----------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: |
 | engrammer | [left](https://github.com/willpuckett/Sheesh/releases/latest/download/sheesh_engrammer_left.uf2) | [right](https://github.com/willpuckett/Sheesh/releases/latest/download/sheesh_engrammer_right.uf2) |
 
-The link contains the following layouts...
-
 ### Engrammer
 
 ![Engrammer](.images/keymap_ENGRAMMER.svg)
@@ -102,10 +101,10 @@ The link contains the following layouts...
 The extras will be [available](https://octule.com) when they arrive if you don't
 want to have to deal with a minimum order...
 
-## Writing Your Own keymap
+## Writing Your Own Keymap
 
-Should you not be prepared for engram, you can easily make your own keymap that
-references the sheesh shield...
+Should you not be prepared for engrammer, you can easily make your own keymap
+that references the sheesh shield...
 
 > [!TIP]
 > Don't feel like going through the below steps? Unpack

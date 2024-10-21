@@ -13,7 +13,7 @@ preflight:
 
 variants:
   - name: board
-    comment: For Hand Soldering
+    comment: Main board
     type: kibom
     variant: board
     pre_transform:

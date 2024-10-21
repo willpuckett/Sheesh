@@ -1,5 +1,4 @@
 (fp_lib_table
   (version 7)
   (lib (name "Sheesh")(type "KiCad")(uri "${KIPRJMOD}/library/Sheesh.pretty")(options "")(descr "All the nibbly bits"))
-  (lib (name "nice_nano")(type "KiCad")(uri "${KIPRJMOD}/library/nice-nano-kicad")(options "")(descr ""))
 )

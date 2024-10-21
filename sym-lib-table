@@ -1,5 +1,4 @@
 (sym_lib_table
   (version 7)
   (lib (name "Sheesh")(type "KiCad")(uri "${KIPRJMOD}/library/Sheesh.kicad_sym")(options "")(descr ""))
-  (lib (name "nice_nano")(type "KiCad")(uri "${KIPRJMOD}/library/nice-nano-kicad/nice_nano.kicad_sym")(options "")(descr ""))
 )
