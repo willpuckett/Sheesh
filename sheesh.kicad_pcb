@@ -7408,7 +7408,7 @@
 			(uuid "7a111ecf-9ebe-4017-bcf7-0dfcd3671bf7")
 		)
 		(fp_line
-			(start -10.441082 5.61464)
+			(start -10.441083 5.61464)
 			(end -10.441081 3.52864)
 			(stroke
 				(width 0.001)
@@ -7419,7 +7419,7 @@
 		)
 		(fp_line
 			(start -8.341081 5.614639)
-			(end -10.441082 5.61464)
+			(end -10.441083 5.61464)
 			(stroke
 				(width 0.001)
 				(type solid)
@@ -7665,7 +7665,7 @@
 			(uuid "4a4a78dd-ff94-485c-8588-b1cca7f39203")
 		)
 		(pad "5" thru_hole circle
-			(at -2.54 -7.619999 350)
+			(at -2.54 -7.619998 350)
 			(size 1.5 1.5)
 			(drill 0.85)
 			(layers "*.Cu" "*.Mask")
@@ -7742,7 +7742,7 @@
 			(uuid "18a068f7-ee8a-49e4-beae-dbfdc16af71a")
 		)
 		(pad "12" thru_hole circle
-			(at 2.54 7.619999 170)
+			(at 2.54 7.619998 170)
 			(size 1.5 1.5)
 			(drill 0.85)
 			(layers "*.Cu" "*.Mask")
@@ -8034,6 +8034,7 @@
 				)
 			)
 		)
+		(attr board_only exclude_from_pos_files)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 0.8 1)
@@ -8623,11 +8624,12 @@
 				)
 			)
 		)
+		(attr board_only exclude_from_pos_files)
 		(pad "" np_thru_hole circle
 			(at 0 0)
-			(size 0.8 1)
+			(size 0.8 0.8)
 			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Mask")
 			(uuid "909aae3a-ed24-4a9b-9894-78c1808f0e82")
 		)
 	)
@@ -10405,7 +10407,7 @@
 			(uuid "6dceddc5-6e8a-4155-91e7-79b0592abc7d")
 		)
 		(fp_line
-			(start -8.341081 5.614641)
+			(start -8.341081 5.614642)
 			(end -10.441082 5.61464)
 			(stroke
 				(width 0.001)
@@ -10465,7 +10467,7 @@
 			(uuid "061c5468-83cc-456c-8183-db97f11405bc")
 		)
 		(fp_line
-			(start -4.604081 7.714641)
+			(start -4.604081 7.714642)
 			(end -4.604081 7.51464)
 			(stroke
 				(width 0.001)
@@ -10640,7 +10642,7 @@
 			(uuid "2bb9faf7-bc8d-4b60-aa52-ad62b2a13452")
 		)
 		(pad "3" thru_hole circle
-			(at 2.54 -7.619999 10)
+			(at 2.54 -7.619998 10)
 			(size 1.5 1.5)
 			(drill 0.85)
 			(layers "*.Cu" "*.Mask")
@@ -10717,7 +10719,7 @@
 			(uuid "1028d79b-8d50-4279-acfc-ab17c27e6b28")
 		)
 		(pad "10" thru_hole circle
-			(at -2.54 7.619999 190)
+			(at -2.54 7.619998 190)
 			(size 1.5 1.5)
 			(drill 0.85)
 			(layers "*.Cu" "*.Mask")
@@ -11724,6 +11726,7 @@
 				)
 			)
 		)
+		(attr board_only exclude_from_pos_files)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 0.8 1)
@@ -15066,6 +15069,7 @@
 				)
 			)
 		)
+		(attr board_only exclude_from_pos_files)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 0.8 1)
@@ -15136,6 +15140,7 @@
 				)
 			)
 		)
+		(attr board_only exclude_from_pos_files)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 0.8 1)
@@ -15206,6 +15211,7 @@
 				)
 			)
 		)
+		(attr board_only exclude_from_pos_files)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 0.8 1)
@@ -16966,11 +16972,12 @@
 				)
 			)
 		)
+		(attr board_only exclude_from_pos_files)
 		(pad "" np_thru_hole circle
 			(at 0 0)
-			(size 0.8 1)
+			(size 0.8 0.8)
 			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Mask")
 			(uuid "715a5fb2-14a5-4646-ba57-8995d3b56b9f")
 		)
 	)
@@ -21598,6 +21605,7 @@
 				)
 			)
 		)
+		(attr board_only exclude_from_pos_files)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 0.8 1)
@@ -22168,6 +22176,7 @@
 				)
 			)
 		)
+		(attr board_only exclude_from_pos_files)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 0.8 1)
@@ -24166,6 +24175,7 @@
 				)
 			)
 		)
+		(attr board_only exclude_from_pos_files)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 0.8 1)
@@ -25932,6 +25942,7 @@
 				)
 			)
 		)
+		(attr board_only exclude_from_pos_files)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 0.8 1)
@@ -26350,6 +26361,7 @@
 				)
 			)
 		)
+		(attr board_only exclude_from_pos_files)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 0.8 1)
@@ -26420,6 +26432,7 @@
 				)
 			)
 		)
+		(attr board_only exclude_from_pos_files)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 0.8 1)
@@ -27335,11 +27348,12 @@
 				)
 			)
 		)
+		(attr board_only exclude_from_pos_files)
 		(pad "" np_thru_hole circle
 			(at 0 0)
-			(size 0.8 1)
+			(size 0.8 0.8)
 			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Mask")
 			(uuid "98e0e043-5b59-42ea-8410-e642cc12e325")
 		)
 	)
@@ -27579,6 +27593,7 @@
 				)
 			)
 		)
+		(attr board_only exclude_from_pos_files)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 0.8 1)
@@ -29162,6 +29177,7 @@
 				)
 			)
 		)
+		(attr board_only exclude_from_pos_files)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 0.8 1)
@@ -30912,6 +30928,7 @@
 				)
 			)
 		)
+		(attr board_only exclude_from_pos_files)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 0.8 1)
@@ -31145,7 +31162,7 @@
 		)
 		(fp_arc
 			(start 2.355832 5.442351)
-			(mid -0.480693 4.138199)
+			(mid -0.480692 4.138199)
 			(end -2.15 1.5)
 			(stroke
 				(width 0.25)
@@ -34223,6 +34240,7 @@
 				)
 			)
 		)
+		(attr board_only exclude_from_pos_files)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 0.8 1)
