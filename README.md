@@ -18,8 +18,7 @@ for a leaf to lay over the keys. I choose a maple leaf both for the aesthetic
 quality with which the keys fit, and for the pleasant memories of eating maple
 butter in Montreal's Jean-Talon Market it conjured.
 
-> [!NOTE]
-> _sheesh_ honors the Ojibway people, who (according to the interwebs)
+> [!NOTE] _sheesh_ honors the Ojibway people, who (according to the interwebs)
 > call maple _sheesheegummavvis_: “sap flows fast."
 
 The size of the Xiao makes it so attractive for smaller keyboards. _Sheesh_
@@ -70,12 +69,13 @@ and white silk.
 [[step](https://github.com/willpuckett/Sheesh/releases/latest/download/case.step)]
 [[stl](https://github.com/willpuckett/Sheesh/releases/latest/download/case.step)]
 
-
-It's really more of a skin. Print and place the pcb directly in it. Red or white TPU is ideal... The case is only one half, flip it in your slicer for the other half 🙃
+It's really more of a skin. Print and place the pcb directly in it. Red or white
+TPU is ideal... The case is only one half, flip it in your slicer for the other
+half 🙃
 
 > [!TIP]
 > Polymaker TPU works well. It seems to like to print slow and cool—leave the
-> door open. 
+> door open.
 
 TPU is relatively non-slip, and it absorbs and distributes the force of typing
 very nicely, so no bumpons needed which further reduces height.
@@ -89,44 +89,28 @@ Download the latest ZMK Builds.
 
 |  Layout   |                                                                                                  |                                                                                                    |
 | :-------: | :----------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: |
-|  engram   |  [left](https://github.com/willpuckett/Sheesh/releases/latest/download/sheesh_engram_left.uf2)   |  [right](https://github.com/willpuckett/Sheesh/releases/latest/download/sheesh_engram_right.uf2)   |
 | engrammer | [left](https://github.com/willpuckett/Sheesh/releases/latest/download/sheesh_engrammer_left.uf2) | [right](https://github.com/willpuckett/Sheesh/releases/latest/download/sheesh_engrammer_right.uf2) |
 
 The link contains the following layouts...
 
-<details>
-<summary>
-
-### Engram
-
-</summary>
-
-![Engram](.images/keymap_ENGRAM.svg)
-
-</details>
-
-<details>
-<summary>
-
 ### Engrammer
-
-</summary>
 
 ![Engrammer](.images/keymap_ENGRAMMER.svg)
 
-</details>
-
-
 ## Pre Fabs
 
-The extras will be [available](https://octule.com) when they arrive if you don't want to have to deal with a minimum order...
+The extras will be [available](https://octule.com) when they arrive if you don't
+want to have to deal with a minimum order...
 
 ## Writing Your Own keymap
 
-Should you not be prepared for engram, you can easily make your own keymap that references the sheesh shield...
+Should you not be prepared for engram, you can easily make your own keymap that
+references the sheesh shield...
 
 > [!TIP]
-> Don't feel like going through the below steps? Unpack [this zip](https://github.com/willpuckett/sheesh/config/zmk-config.zip), edit, and push to your github account to build.
+> Don't feel like going through the below steps? Unpack
+> [this zip](https://github.com/willpuckett/sheesh/config/zmk-config.zip), edit,
+> and push to your github account to build.
 
 1. Init a new ZMK repo `bash -c "$(curl -fsSL https://zmk.dev/setup.sh)"`
 2. Type `1` to select a keyboard
@@ -136,7 +120,9 @@ Should you not be prepared for engram, you can easily make your own keymap that 
 6. Type `Y` to execute it
 7. You can delete the `boards` and `zephyr` directories to keep things tidy
 8. In `build.yaml`, change the `shield` to `sheesh`
-9. In the config directory, rename the `.conf` and `.keymap` files to `sheesh`, keeping their respective `.conf` and `.keymap` extensions it should look like this: 
+9. In the config directory, rename the `.conf` and `.keymap` files to `sheesh`,
+   keeping their respective `.conf` and `.keymap` extensions it should look like
+   this:
 
 ```bash
 ❯ ls --tree zmk-config/config
@@ -170,5 +156,7 @@ manifest:
     path: config
 ```
 
-11. And that's it. Edit `config/sheesh.keymap` to your heart's content. You can start by copying in one of the [layers from this file](https://github.com/willpuckett/sheesh/config/boards/shields/sheesh/sheesh.keymap) as a starting point. Then push the folder to your github to build in an action.
-
+11. Edit `config/sheesh.keymap`. You can start by copying in one of the
+    [layers from this file](https://github.com/willpuckett/sheesh/config/boards/shields/sheesh/sheesh.keymap)
+    as a starting point. Then push the folder to your github to build in an
+    action.

@@ -1,18 +1,7 @@
 include:
-  - board:  seeeduino_xiao_ble
+  - board: seeeduino_xiao_ble
     shield: sheesh_left
-    cmake-args: -DDTS_EXTRA_CPPFLAGS=-DLAYOUT=1
-    artifact-name: sheesh_engram_left
-  - board:  seeeduino_xiao_ble
-    shield: sheesh_right
-    cmake-args: -DDTS_EXTRA_CPPFLAGS=-DLAYOUT=1
-    artifact-name: sheesh_engram_right
-    
-  - board:  seeeduino_xiao_ble
-    shield: sheesh_left
-    cmake-args: -DDTS_EXTRA_CPPFLAGS=-DLAYOUT=2
     artifact-name: sheesh_engrammer_left
-  - board:  seeeduino_xiao_ble
+  - board: seeeduino_xiao_ble
     shield: sheesh_right
-    cmake-args: -DDTS_EXTRA_CPPFLAGS=-DLAYOUT=2
     artifact-name: sheesh_engrammer_right

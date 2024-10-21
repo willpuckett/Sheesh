@@ -6,7 +6,7 @@ kibot:
 
 preflight:
   erc: true
-  drc: 
+  drc:
     enabled: true
     ignore_unconnected: false
   fill_zones: true
@@ -16,7 +16,7 @@ variants:
     comment: For Hand Soldering
     type: kibom
     variant: board
-    pre_transform: 
+    pre_transform:
       - fix_rotation
 
 filters:
@@ -37,7 +37,7 @@ filters:
     comment: Only parts with JLC code
     type: generic
     include_only:
-      - column: 'LCSC'
+      - column: "LCSC"
         regex: '^C\d+'
 
 outputs:
@@ -45,7 +45,7 @@ outputs:
     comment: Schematic in SVG format
     type: svg_sch_print
     options:
-      output: '%i.%x'
+      output: "%i.%x"
 
   # - name: EDGES
   #   comment: Edge Cut SVG used for case generation
@@ -61,7 +61,7 @@ outputs:
     type: gerber
     dir: JLCPCB
     options: &gerber_options
-      output: '%f-%i%I.%x'
+      output: "%f-%i%I.%x"
       exclude_edge_layer: true
       exclude_pads_from_silkscreen: true
       plot_sheet_reference: false
@@ -77,7 +77,7 @@ outputs:
       use_gerber_net_attributes: false
       line_width: 0.1
       subtract_mask_from_silk: true
-      inner_extension_pattern: '.gp%n'
+      inner_extension_pattern: ".gp%n"
     layers:
       - F.Cu
       - B.Cu
@@ -95,12 +95,12 @@ outputs:
     dir: JLCPCB
     options:
       pth_and_npth_single_file: false
-      pth_id: 'PTH'
-      npth_id: 'NPTH'
+      pth_id: "PTH"
+      npth_id: "NPTH"
       metric_units: true
-      map: 
+      map:
         type: gerber
-        output: '%f-%i%I.%x'
+        output: "%f-%i%I.%x"
       route_mode_for_oval_holes: false
       output: "%f-%i.%x"
 
@@ -108,7 +108,7 @@ outputs:
     comment: Pick and place position file compatible with JLCPCB
     type: position
     options:
-      output: '%f_cpl_jlc.%x'
+      output: "%f_cpl_jlc.%x"
       format: CSV
       units: millimeters
       separate_files_for_front_and_back: false
@@ -131,10 +131,10 @@ outputs:
     comment: BoM for JLC
     type: bom
     options:
-      output: '%f_%i_jlc.%x'
-      exclude_filter: 'only_jlc_parts'
-      ref_separator: ','
-      group_fields: ['Value', 'Footprint', 'LCSC']
+      output: "%f_%i_jlc.%x"
+      exclude_filter: "only_jlc_parts"
+      ref_separator: ","
+      group_fields: ["Value", "Footprint", "LCSC"]
       columns:
         - field: Value
           name: Comment
@@ -142,8 +142,8 @@ outputs:
           name: Designator
         - field: Footprint
           name: Footprint
-        - field: 'LCSC'
-          name: 'LCSC Part #'
+        - field: "LCSC"
+          name: "LCSC Part #"
       csv:
         hide_pcb_info: true
         hide_stats_info: true
@@ -169,7 +169,7 @@ outputs:
           dest: /
         - from_output: JLCPCB_DRILL
           dest: /
-      output: 'JLCPCB/%f_jlc.zip'
+      output: "JLCPCB/%f_jlc.zip"
 
   - name: ZIP_ASSEMBLY
     comment: Gerbers, Drill, Position and BOM files for JLCPCB
@@ -182,4 +182,4 @@ outputs:
           dest: /
         - from_output: JLCPCB_BOM
           dest: /
-      output: 'jlcpcb.zip'
+      output: "jlcpcb.zip"
