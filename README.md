@@ -18,16 +18,17 @@ for a leaf to lay over the keys. I choose a maple leaf both for the aesthetic
 quality with which the keys fit, and for the pleasant memories of eating maple
 butter in Montreal's Jean-Talon Market it conjured.
 
-> [!NOTE] _sheesh_ honors the Ojibway people, who (according to the interwebs)
+> [!NOTE] 
+> _Sheesh_ honors the Ojibway people, who (according to the interwebs)
 > call maple _sheesheegummavvis_: “sap flows fast."
 
 The size of the Xiao makes it so attractive for smaller keyboards. _Sheesh_
 intended to repurpose the reset and nfc pins to squeeze enough I/O to directly
 connect the 28 keys. Unfortunately, coopting the reset pin didn't work well,
-although the initial exploration encouraged me to chord more. It seems to make
-more sense to explore a 26 key layout in another board, so version 0.2 and up
-switch to a diode layout. _Sheesh_ is an exploration in PCBA, and uses 0402
-diodes which are not conducive to handsoldering.
+although the initial exploration revealed a lot more chording opportunities. It
+seems to make more sense to explore a 26 key layout in another board, so version
+0.2 and up switch to a diode layout. _Sheesh_ is an exploration in PCBA, and
+uses 0402 diodes which are not conducive to handsoldering.
 
 > [!IMPORTANT]
 > If you have time, please drop a note to your local Seeed representative asking
@@ -51,9 +52,7 @@ diodes which are not conducive to handsoldering.
 
 [![KiBot](https://github.com/willpuckett/Sheesh/actions/workflows/kibot.yml/badge.svg)](https://github.com/willpuckett/Sheesh/actions/workflows/kibot.yml)
 
-### Fabrication & Assembly Files
-
-[[zip](https://github.com/willpuckett/Sheesh/releases/latest/download/jlcpcb.zip)]
+### Fabrication & Assembly Files [[zip](https://github.com/willpuckett/Sheesh/releases/latest/download/jlcpcb.zip)]
 
 For the love of god and country 🇨🇦, please have this fabricated with red mask
 and white silk.
@@ -65,10 +64,7 @@ and white silk.
 
 [![Build123d Case](https://github.com/willpuckett/Sheesh/actions/workflows/case.yml/badge.svg)](https://github.com/willpuckett/Sheesh/actions/workflows/case.yml)
 
-### There's a case
-
-[[step](https://github.com/willpuckett/Sheesh/releases/latest/download/case.step)]
-[[stl](https://github.com/willpuckett/Sheesh/releases/latest/download/case.step)]
+### There's a case [[step](https://github.com/willpuckett/Sheesh/releases/latest/download/case.step)] [[stl](https://github.com/willpuckett/Sheesh/releases/latest/download/case.step)]
 
 It's really more of a skin. Print and place the pcb directly in it. Red or white
 TPU is ideal... The case is only one half, flip it in your slicer for the other
@@ -88,11 +84,8 @@ nicely. No bumpons required.
 
 Download the latest ZMK Builds.
 
-|  Layout   |                                                                                                  |                                                                                                    |
-| :-------: | :----------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: |
-| engrammer | [left](https://github.com/willpuckett/Sheesh/releases/latest/download/sheesh_engrammer_left.uf2) | [right](https://github.com/willpuckett/Sheesh/releases/latest/download/sheesh_engrammer_right.uf2) |
+### Engrammer  [[left](https://github.com/willpuckett/Sheesh/releases/latest/download/sheesh_engrammer_left.uf2)] [[right](https://github.com/willpuckett/Sheesh/releases/latest/download/sheesh_engrammer_right.uf2)] 
 
-### Engrammer
 
 ![Engrammer](.images/keymap_ENGRAMMER.svg)
 
