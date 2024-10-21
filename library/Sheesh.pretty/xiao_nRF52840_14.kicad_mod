@@ -330,32 +330,6 @@
 		(layer "User.2")
 		(uuid "3a297fa1-f456-4806-b49c-6d5e0ad8308b")
 	)
-	(fp_text user "-"
-		(at 3.3147 -3.5814 0)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "a012e417-613a-4cc5-b6ec-80e46525477b")
-		(effects
-			(font
-				(size 1.0795 1.0795)
-				(thickness 0.1905)
-			)
-			(justify mirror)
-		)
-	)
-	(fp_text user "+"
-		(at -0.8763 -3.7084 -90)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "c316e59b-46e1-4173-baf5-ee349082b62e")
-		(effects
-			(font
-				(size 1.0795 1.0795)
-				(thickness 0.1905)
-			)
-			(justify mirror)
-		)
-	)
 	(fp_text user "XIAO nRF52840"
 		(at -0.0635 0 0)
 		(unlocked yes)
